@@ -47,5 +47,22 @@ namespace Car_Class_Example
             set { model = value; }
         }
 
+        public Car()
+        {
+            Console.WriteLine("Constructor with no parameters called!");
+        }
+
+        public Car(string color) : this()
+        {
+            this.color = color;
+            Console.WriteLine("Constructor with color parameter called!");
+        }
+
+        //destructor
+        //~Car()
+        //{
+        //    Console.WriteLine("Out..");
+        //}
+
     }
 }
