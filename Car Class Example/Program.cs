@@ -9,6 +9,7 @@ namespace Car_Class_Example
 
             Car car;
             
+            
 
             car = new Car("Red", "Altima");
             Console.WriteLine(car.Describe());
