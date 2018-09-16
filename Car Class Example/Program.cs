@@ -6,7 +6,27 @@ namespace Car_Class_Example
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Car car;
+            
+
+            car = new Car("Red", "Altima");
+            Console.WriteLine(car.Describe());
+
+            car = new Car("Green", "Elantra");
+            Console.WriteLine(car.Describe());
+
+
+
+
+
+
+
+
+
+
+            Console.ReadLine();
+
         }
     }
 }
